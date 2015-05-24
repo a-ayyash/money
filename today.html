@@ -1,0 +1,34 @@
+<html>
+
+	<head> <title> Welcome </title> </head> 
+
+	<body>
+		<div align="center"> 
+			<form action="do_daily.php" method="POST"> 
+				<p>
+					<label for="amount">Amount</label>
+					<input type="text" name="amount" /> 
+				</p>
+				<p>
+					<label for="reason">Reason</label>
+					<input type="text" name="reason" style="width:300px" /> 
+				</p>
+				<p>
+					<label for="category">Category</label>
+					<input type="text" name="category" style="width:300px" /> 
+				</p>
+
+				<p>
+					<label for="recurring">Recurring</label>
+				<select name="recurring"> 
+					<option value="NO" name="NO"> NO </option>
+					<option value="YES" name="YES"> YES </option>
+				</select>
+				</p>
+
+
+				<input type="SUBMIT" value="Submit">
+			</form>
+		</div>
+	</body>
+</html>
